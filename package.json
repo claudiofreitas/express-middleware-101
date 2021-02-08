@@ -5,6 +5,9 @@
   "author": "Claudio Freitas",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "dev": "nodemon src/app.ts"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "morgan": "^1.10.0",
