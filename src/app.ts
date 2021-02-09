@@ -49,13 +49,13 @@ class App {
 Conclusions:
 
 - When calling next...
-  ... if the argument is empty, call the next handler in the queue (request or error, doesnt matter).
+  ... if the argument is empty, call the next error handler in the queue.
   ... if the argument is not empty, call the next error handler in the queue.
 
 - When throwing error...
   ... call the next error handler.
 
-- When entering a handler, it doesnt matter if the previous one sent an error
+- When entering a handler, it doesnt matter if the previous one sent an error (will continue later... TODO)
 
 
  */
